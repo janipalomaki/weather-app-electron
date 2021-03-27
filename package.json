@@ -27,9 +27,15 @@
     "appId": "com.weather-app.app",
     "productName" : "Weather-App",
     "copyright" : "@ 2021 Jani Palomäki, Xamk",
-    "buildResources" : "./build",
-    "files" : "/build/icon.png"
+    "mac" : {
+      "icon" : ".public/icon.icns"
+    },
+    "directories" : {
+      "buildResources" : "public"
+    },
+    "files" : "./public/icon.icns"
   },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

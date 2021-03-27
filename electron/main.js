@@ -8,6 +8,9 @@ const path = require('path');
 const url = require('url');
 
 
+win.setIcon(path.join(__dirname, '/src/assets/icon.icns'));
+
+
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
@@ -17,7 +20,7 @@ function createWindow() {
     mainWindow = new BrowserWindow({
         width: 800, 
         height: 600,
-        icon: __dirname + "/build/icon.png"
+        icon: path.join(__dirname, "/build/icon.png")
     });
 
     // and load the index.html of the app.

@@ -1,4 +1,5 @@
-# Weather App - Electron cross-platform desktop app. Created with JavaScript, HTML, and CSS
+# Weather App - Electron cross-platform desktop app
+Created with JavaScript, HTML, and CSS
 
 # Getting Started with Create React App
 
